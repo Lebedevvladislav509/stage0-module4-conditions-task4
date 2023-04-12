@@ -9,8 +9,11 @@ public class MaxNumberPrinter {
                 System.out.println(third);
             }
         }
-        if (second >= third) {
+        else if (second >= third) {
             System.out.println(second);
+        }
+        else{
+            System.out.println(third);
         }
     }
 }
